@@ -1,0 +1,183 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+  }
+ 
+  a {
+    text-decoration: none;
+  }
+  
+/* HEADER */
+
+header {
+    min-height: 64px;
+    position: relative;
+    z-index: 100;
+    min-width: 100%;
+    display: inline-block;
+}
+
+  
+.header_content_dsktp {
+    display: flex;    
+    min-height: 64px;
+    min-width: 95%;
+    padding: 0 24px;
+}
+
+
+.logo {
+    min-width: 50%;
+    min-height: 32px;
+    max-height: 64px;
+    display: inline-flex;
+    align-content: center;
+    color: darkslategrey;
+}
+
+.logo p {
+    align-content: center;
+    min-height: 100%;
+    font-size: 26px;
+    line-height: 26px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo span {
+    color: gray;
+    font-weight: lighter;
+}
+
+.menu {
+    min-width: 50%;
+    text-align: right;
+    align-content: center;
+}
+
+.menu a {
+    padding-left: 16px;
+    font-size: 20px;
+    color: dimgray;
+}
+
+
+
+
+
+/* LEARN SOMETHING NEW EVERY DAY */
+
+#learn_sctn {
+    display: flex;
+    background-color: lightgrey;
+    margin-top: 1;
+}
+
+.learn_bkgrnd {
+    display: flex;
+    width: 100%;
+    padding: 32px 24px;
+}
+
+.banner_img {
+    width: 60%;
+    padding-right: 12px;
+}
+
+.banner_img img {
+    display: flex;
+    width: 100%;
+    margin-right: 24px;
+}
+
+.learn {
+    display: flex;
+    width: 25%;
+    color: rgb(82, 82, 82);
+    flex-direction: column;
+    justify-content: center;
+    font-size: 1.5rem;
+    padding-left: 12px;
+}
+
+.learn_vrbg h2 {
+    font-weight: lighter;
+}
+
+.button {
+    display: flex;
+    color: white;
+    opacity: 1;
+    background-color: rgb(82, 82, 82);
+    padding: 8px 0;
+    justify-content: center;
+}
+
+.button a {
+    color: white;
+}
+
+
+
+/* Practice and Informational */
+
+#pracitce_sctn {
+    display: inline-flex;
+    margin: 32px 0;
+    width: 100%;
+}
+
+.img_left {
+    display: inline-flex;
+    flex-direction: column;
+    padding: 0 24px;
+    width: 60%;
+    padding: 32px 24px;
+    
+}
+
+.img_left img {
+    width: 100%;
+    margin-right: 24px;
+    display: flex;
+}
+
+.info_grid {
+    display: inline-flex;
+    flex-direction: column;
+    min-width: 40%;
+}
+
+.info_grid img {
+    display: flex;
+    height: auto;
+    min-width: 35%;
+}
+
+.orientation {
+    border-top: 1 solid gray;
+    padding: 16px 16px;
+    display: flex;
+}
+
+.orientation img{
+    border: 2 solid gray;
+    padding: 16px 16px;
+    display: flex;
+}
+
+.campus {
+    border: 1 solid gray;
+    padding: 16px 16px;
+    display: flex;
+}
+
+.guest {
+    border: 1 solid gray;
+    padding: 16px 16px;
+    display: flex;
+}
+
+.info_grid_vrb {
+    flex-direction: column;
+    display: flex;
+}
