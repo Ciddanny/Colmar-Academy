@@ -228,3 +228,212 @@ header {
 .info_grid_vrb h4 {
     font-weight: lighter;
 }
+
+
+/* Start Learning */
+
+#strt_lrn {
+    background-color: lightgray;
+    width: 100%;
+}
+
+.strt_lrn_bkgrnd {
+    width: 100%;
+    display: inline-block;
+}
+
+.strt_lrn_ttl {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    padding: 32px 0 16px 0;
+    width: 100%;
+}
+
+.strt_lrn_ttl h1 {
+    width: 100%;
+}
+
+.courses_grid {
+    display: flex;
+    padding: 16px 40px 32px 40px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.sftwre_eng {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.sftwre_eng img {
+    height: auto;
+    width: 100%;
+}
+
+.sftwre_eng h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.sftwre_eng p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+.comp_art {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.comp_art img {
+    height: auto;
+    width: 100%;
+}
+
+.comp_art h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.comp_art p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+.design {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.design img {
+    height: auto;
+    width: 100%;
+}
+
+.design h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.design p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+.data {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.data img {
+    height: auto;
+    width: 100%;
+}
+
+.data h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.data p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+.business {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.business img {
+    height: auto;
+    width: 100%;
+}
+
+.business h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.business p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+.marketing {
+    background-color: white;
+    width: 27%;
+    margin: 32px;
+}
+
+.marketing img {
+    height: auto;
+    width: 100%;
+}
+
+.marketing h3 {
+    padding: 16px;
+    margin: 0;
+}
+
+.marketing p {
+    color: rgb(167, 165, 165);
+    padding: 8px 16px;
+    margin: 0;
+}
+
+/* Thesis Exhibit */
+
+.xbit_bkgrnd {
+    display: flex;
+    width: 100%;
+}
+
+.xbit_ttl {
+    text-align: center;
+    width: 100%;
+    display: block;
+}
+
+.video {
+    display: inline-flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.video video {
+    width: 60%;
+}
+
+.xbit_grid {
+    display: flex;
+    width: 40%;
+    flex-direction: column;
+}
+
+.fisma {
+    display: flex;
+}
+
+.fisma h3 p {
+    display: flex;
+    flex-direction: column;
+}
+
+.fisma img {
+    width: 35%;
+    height: auto;
+}
+
+
