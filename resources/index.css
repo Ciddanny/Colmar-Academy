@@ -241,7 +241,6 @@ header {
     display: flex;
     flex-direction: column;
     width: 40%;
-    justify-content: space-between;
     border-left: 1px solid lightgray;
 }
 
